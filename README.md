@@ -24,7 +24,7 @@ If you are not using WSL version 2, follow [this guide](https://learn.microsoft.
 3. This will create a directory named `ns-allinone-2.35`. Now run the following commands to install `ns2`:
 - `cd ns-allinone-2.35/`
 - `export CC=gcc-4.8 CXX=g++-4.8 && ./install`
-- `ns-2.35/`
+- `cd ns-2.35/`
 - `sudo make install`
 4. If the above commands have executed successfully, you should be able to type `ns` in the terminal and a prompt beggining with `%` will appear. This marks a successful installation. 
 
