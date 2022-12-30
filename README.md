@@ -4,6 +4,7 @@
 
 Check your WSL version from Command Prompt:
 - `wsl -l -v`
+
 If you are not using WSL version 2, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/install).
 
 ## Step 1: Installing `g++-4.8`
