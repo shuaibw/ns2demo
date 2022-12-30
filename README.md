@@ -1,11 +1,11 @@
-# Installing ns2 on WSL version 2
+# Installing ns2 on WSL/Ubuntu
 
-**If you are not using Windows 11 and WSL version 2, this may not work**.
+**This tutorial may not be compatible with Windows 10, but it is worth attempting to follow the instructions and see if it works on your system.**
 
 Check your WSL version from Command Prompt:
 - `wsl -l -v`
 
-If you are not using WSL version 2, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/install).
+Ensure that you are running WSL version 2. If that is not the case, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/install) to upgrade.
 
 ## Step 1: Installing `g++-4.8`
 
