@@ -1,6 +1,7 @@
 # Installing ns2 on WSL version 2
 
-**If you are not using Windows 11 and WSL version 2, this may not work**
+**If you are not using Windows 11 and WSL version 2, this may not work**.
+
 Check your WSL version from Command Prompt:
 - `wsl -l -v`
 If you are not using WSL version 2, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/install).
