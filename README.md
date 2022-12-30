@@ -28,5 +28,10 @@ If you are not using WSL version 2, follow [this guide](https://learn.microsoft.
 - `sudo make install`
 4. If the above commands have executed successfully, you should be able to type `ns` in the terminal and a prompt beggining with `%` will appear. This marks a successful installation. 
 
+## Step 3: Cleanup (optional)
+
+You might want to remove the older repository link from your system by running the following command:
+
+- `sudo sed -i '$ d' /etc/apt/sources.list`
 
 
