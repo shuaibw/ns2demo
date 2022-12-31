@@ -11,7 +11,7 @@ Ensure that you are running WSL version 2. If that is not the case, follow [this
 
 1. Try `sudo apt install g++-4.8`. If this works, you are done. Proceed to step 2.
 2. If the above command doesn't work, you will have to manually add the older repository to your system. Execute the following commands:
-- `echo "deb http://th.archive.ubuntu.com/ubuntu bionic main universe" | sudo tee -a /etc/apt/sources.list `
+- `echo "deb [trusted=yes] http://th.archive.ubuntu.com/ubuntu bionic main universe" | sudo tee -a /etc/apt/sources.list `
 - `sudo apt update`
 - `sudo apt install g++-4.8`
 3. If the above commands are successfully executed, you are done. Proceed to step 2.
