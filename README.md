@@ -5,9 +5,9 @@
 Check your WSL version from Command Prompt:
 - `wsl -l -v`
 
-Instamm `nam` from [this link](https://drive.google.com/file/d/0B7S255p3kFXNdmxzSmRzaVRWb28/view?resourcekey=0-ouf369XFh7Azj3brgm-UEQ). First download the file, then run `sudo dpkg -i FILE_NAME`
-
 Ensure that you are running WSL version 2. If that is not the case, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/install) to upgrade.
+
+Install `nam` from [this link](https://drive.google.com/file/d/0B7S255p3kFXNdmxzSmRzaVRWb28/view?resourcekey=0-ouf369XFh7Azj3brgm-UEQ). First download the file, then run `sudo dpkg -i FILE_NAME`.
 
 ## Step 1: Installing `g++-4.8`
 
