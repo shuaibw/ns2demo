@@ -7,7 +7,7 @@ Check your WSL version from Command Prompt:
 
 Ensure that you are running WSL version 2. If that is not the case, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/install) to upgrade.
 
-Install `nam` from [this link](https://drive.google.com/file/d/0B7S255p3kFXNdmxzSmRzaVRWb28/view?resourcekey=0-ouf369XFh7Azj3brgm-UEQ). First download the file, then run `sudo dpkg -i FILE_NAME`.
+Install `nam` from [this link](https://drive.google.com/file/d/0B7S255p3kFXNdmxzSmRzaVRWb28/view?resourcekey=0-ouf369XFh7Azj3brgm-UEQ). First download the file, then run `sudo dpkg -i FILE_NAME`. The `apt` version didn't seem to work for me.
 
 ## Step 1: Installing `g++-4.8`
 
@@ -29,6 +29,9 @@ Install `nam` from [this link](https://drive.google.com/file/d/0B7S255p3kFXNdmxz
 - `cd ns-2.35/`
 - `sudo make install`
 4. If the above commands have executed successfully, you should be able to type `ns` in the terminal and a prompt beggining with `%` will appear. This marks a successful installation. 
+5. Once installed, you can make changes to the source code within the `ns-2.35/` directory. Then you can incorporate those changes by executing:
+- `make`
+- `sudo make install`
 
 ## Step 3: Cleanup (optional)
 
