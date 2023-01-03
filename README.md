@@ -7,7 +7,7 @@ Check your WSL version from Command Prompt:
 
 Ensure that you are running WSL version 2. If that is not the case, follow [this guide](https://learn.microsoft.com/en-us/windows/wsl/install) to upgrade.
 
-Install `nam` from [this link](https://drive.google.com/file/d/0B7S255p3kFXNdmxzSmRzaVRWb28/view?resourcekey=0-ouf369XFh7Azj3brgm-UEQ). First download the file, then run `sudo dpkg -i FILE_NAME`. The `apt` version didn't seem to work for me.
+Download the suitable `nam` installer from [this link](https://www.linuxquestions.org/questions/linux-newbie-8/ns-stop-couldn%27t-execute-nam-permission-denied-while-executing-exec-nam-4175524760/#2). After downloading, run `sudo dpkg -i FILE_NAME`. The `apt` version didn't seem to work for me.
 
 ## Step 1: Installing `g++-4.8`
 
