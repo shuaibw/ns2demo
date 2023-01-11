@@ -21,9 +21,10 @@ Download the suitable `nam` installer from [this link](https://www.linuxquestion
 
 ## Step 2: Installing `ns2-allinone-2.35`
 
-1. Download the installer from [this link](https://drive.google.com/file/d/0B7S255p3kFXNVVlxR0ZNRGVORjQ/view?usp=sharing).
-2. Unzip the downloaded file: `tar xvf ns-allinone-2.35_gcc5.tar.gz`
-3. This will create a directory named `ns-allinone-2.35`. Now run the following commands to install `ns2`:
+1. install dependencies: `sudo apt-get install --reinstall libxmu-dev libx11-dev`
+2. Download the installer from [this link](https://drive.google.com/file/d/0B7S255p3kFXNVVlxR0ZNRGVORjQ/view?usp=sharing).
+3. Unzip the downloaded file: `tar xvf ns-allinone-2.35_gcc5.tar.gz`. You are recommended to use `tar`, other tools are likely to give a symlink error.
+4. This will create a directory named `ns-allinone-2.35`. Now run the following commands to install `ns2`:
 - `cd ns-allinone-2.35/`
 - `export CC=gcc-4.8 CXX=g++-4.8 && ./install`
 - `cd ns-2.35/`
